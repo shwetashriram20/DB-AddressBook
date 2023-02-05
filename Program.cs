@@ -1,17 +1,12 @@
-﻿using System;
-using ADO_Employee_Payroll.ADO_Employee_Payroll;
+using System;
 
-namespace ADO_Employee_Payroll
+namespace LINQ_AddressBook
 {
-    class Program
+    public  class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Payroll Services using ADO!");
-            //Create oobject for Employee Repository
-            EmployeeRepository employeeRepository = new EmployeeRepository();
-            employeeRepository.GetSqlData();
-
+            Console.WriteLine("Welcome to LINQ AddressBookSystem!");
         }
     }
 }
